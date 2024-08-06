@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.l1{
+    display: flex;
+}
+
+.l1 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+        
+}
+
+.l1 .box:nth-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+@keyframes animation {
+    50%{
+        background-color: grey;
+    }
+}
+
+.l2{
+    display: flex;
+}
+
+.l2 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l2 .box:nth-last-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.l3{
+    display: flex;
+}
+
+.l3 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l3 .box:nth-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.l4{
+    display: flex;
+}
+
+.l4 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l4 .box:nth-last-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.l5{
+    display: flex;
+}
+
+.l5 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l5 .box:nth-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.l6{
+    display: flex;
+}
+
+.l6 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l6 .box:nth-last-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.l7{
+    display: flex;
+}
+
+.l7 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l7 .box:nth-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.l8{
+    display: flex;
+}
+
+.l8 .box{
+    border: 2px solid black;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.l8 .box:nth-last-child(2n){
+    background-color: white;
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
